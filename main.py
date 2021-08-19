@@ -19,7 +19,7 @@ def request(flow):
       gameStateData = gameplayData['gameStateData']
       url = gameplayData['gameUrl']
 
-      desired_score = 1000
+      desired_score = 257000
       content['params']['gameplayData']['score'] = desired_score
 
       score = desired_score
